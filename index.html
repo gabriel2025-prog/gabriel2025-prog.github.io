@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Portafolio</title>
+
+    <!-- Bootstrap CSS desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- https://fontawesome.com/ -->
+    <script src="https://kit.fontawesome.com/14b85abd5e.js" crossorigin="anonymous"></script>
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm ">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Gabriel Andrés López Espinosa</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-house me-1"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portafolio"><i class="fa-solid fa-briefcase me-1"></i>Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:glopez@segale.cl">
+                            <i class="fa-solid fa-envelope me-1"></i>Enviar Email
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+
+    <main class="container mt-5">
+        <div class="text-center">
+            <img src="./asset/img/IMG_4306.jpg" alt="Foto de perfil" class="img-fluid rounded shadow mt-4 mb-4"
+                width="200">
+            <h1 class="mb-4">“Bienvenido a mi currículum.”</h1>
+        </div>
+
+        <!-- Antecedentes Educacionales -->
+        <h2 class="mt-5"><i class="fa-solid fa-school me-2 text-primary"></i>Antecedentes Educacionales</h2>
+        <ul class="list-unstyled ps-3">
+            <li><i class="fa-solid fa-graduation-cap me-2 text-secondary"></i>Técnico de Nivel Superior en
+                Administración de Empresas.</li>
+            <li><i class="fa-solid fa-user-tie me-2 text-secondary"></i>Ingeniero en Gestión de Recursos Humanos.</li>
+        </ul>
+
+        <!-- Experiencia -->
+        <h2 class="mt-5"><i class="fa-solid fa-briefcase me-2 text-primary"></i>Experiencia</h2>
+        <ul class="list-unstyled ps-3">
+            <li><i class="fa-solid fa-code me-2 text-secondary"></i>Diseño de páginas web autoadministrables con
+                WordPress.</li>
+            <li><i class="fa-solid fa-globe me-2 text-secondary"></i>Sitio: <a href="https://www.segale.cl/"
+                    class="link-primary" target="_blank">www.segale.cl</a></li>
+            <li><i class="fa-solid fa-globe me-2 text-secondary"></i>Sitio: <a href="https://www.fidy.cl/"
+                    class="link-primary" target="_blank">www.fidy.cl</a></li>
+            <li><i class="fa-solid fa-globe me-2 text-secondary"></i>Sitio: <a href="https://www.omniaplus.cl/"
+                    class="link-primary" target="_blank">www.omniaplus.cl</a></li>
+            <li><i class="fa-solid fa-boxes-packing me-2 text-secondary"></i>Proveedor independiente con 7 años de
+                experiencia en el suministro integral de insumos a instituciones de educación superior, cubriendo
+                requerimientos de múltiples áreas académicas y profesionales.</li>
+            <li><i class="fa-solid fa-calculator me-2 text-secondary"></i>4 años de experiencia gestionando cálculo de
+                remuneraciones y contabilidad para pequeñas y medianas empresas a través de <a
+                    href="https://www.omniaplus.cl/" target="_blank" class="link-primary">OmniaPlus.cl</a>.</li>
+        </ul>
+    </main>
+
+    <!-- Portafolio -->
+<section id="portafolio" class="mt-5">
+    <h2 class="text-center mb-4">
+        <i class="fa-solid fa-layer-group me-2 text-primary"></i>Portafolio
+    </h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- Card 1 introduccion al html -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="./asset/img/Introduccion al html.jpg" class="card-img-top" alt="Proyecto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Introduccion al html</h5>
+                    <!--<p class="card-text">Text.</p>
+                    <a href="https://www...cl" target="_blank" class="btn btn-primary btn-sm">Ver sitio</a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 Introduccion a CCS -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="./asset/img/Introduccion a CCS.jpg" class="card-img-top" alt="Proyecto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Introduccion a CCS</h5>
+                    <!--<p class="card-text">Text.</p>
+                    <a href="https://www...cl" target="_blank" class="btn btn-primary btn-sm">Ver sitio</a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 Alineando contenido con flex -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="./asset/img/Alineando contenido con flex.jpg" class="card-img-top" alt="Proyecto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Alineando contenido con flex</h5>
+                    <!--<p class="card-text">Text.</p>
+                    <a href="https://www...cl" target="_blank" class="btn btn-primary btn-sm">Ver sitio</a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 Git-GitHub -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="./asset/img/Bootstrap.jpg" class="card-img-top" alt="Proyecto 4">
+                <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <!--<p class="card-text">Text.</p>
+                    <a href="https://www...cl" target="_blank" class="btn btn-primary btn-sm">Ver sitio</a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="./asset/img/Git-GitHub.jpg" class="card-img-top" alt="Proyecto 5">
+                <div class="card-body">
+                    <h5 class="card-title">Terminal, GIT y Github</h5>
+                    <!--<p class="card-text">Text.</p>
+                    <a href="https://www...cl" target="_blank" class="btn btn-primary btn-sm">Ver sitio</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-3">&copy; 2025 Gabriel López.</p>
+
+            <ul class="list-inline">
+                <li class="list-inline-item me-3">
+                    <a href="#portafolio" class="text-white text-decoration-none">
+                        <i class="fa-solid fa-briefcase me-1"></i>Portafolio
+                    </a>
+                </li>
+                <li class="list-inline-item me-3">
+                    <a href="https://github.com/gabriel2025-prog" target="_blank"
+                        class="text-white text-decoration-none">
+                        <i class="fab fa-github me-1"></i>GitHub
+                    </a>
+                </li>
+                <li class="list-inline-item me-3">
+                    <a href="https://www.linkedin.com/in/gabriel-andres-lopez-espinosa-19383342/" target="_blank"
+                        class="text-white text-decoration-none">
+                        <i class="fab fa-linkedin me-1"></i>LinkedIn
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="mailto:glopez@segale.cl" class="text-white text-decoration-none">
+                        <i class="fa-solid fa-envelope me-1"></i>Email
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    
+
+    <!-- Bootstrap JS y dependencias desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
